@@ -1,0 +1,6 @@
+# https://help.github.com/articles/ignoring-files/
+
+.sass-cache
+*.css.map
+config.codekit
+bower_components

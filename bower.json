@@ -1,0 +1,10 @@
+{
+  "name": "totem-flex-embed",
+  "version": "0.1.0",
+  "authors": "Florian Bouvot",
+  "main": "_objects.flex-embed.scss",
+  "ignore": [
+    "test",
+    ".*"
+  ]
+}
