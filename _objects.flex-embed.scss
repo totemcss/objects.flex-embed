@@ -11,7 +11,7 @@
  *
  * Based on: http://alistapart.com/article/creating-intrinsic-ratios-for-video
  */
-.flex-embed {
+.o-flex-embed {
     display: block;
     overflow: hidden;
     position: relative;
@@ -22,26 +22,26 @@
  * The aspect-ratio hack is applied to an empty element because it allows
  * the component to respect `max-height`. Default aspect ratio is 1:1.
  */
-.flex-embed__ratio {
+.o-flex-embed__ratio {
     display: block;
     padding-bottom: 100%;
     width: 100%;
 }
 
-.flex-embed__ratio--3by1 {
+.o-flex-embed__ratio--3by1 {
     padding-bottom: percentage(100 / 3);
     padding-bottom: calc(100% / 3);
 }
 
-.flex-embed__ratio--2by1 {
+.o-flex-embed__ratio--2by1 {
     padding-bottom: 50%;
 }
 
-.flex-embed__ratio--16by9 {
+.o-flex-embed__ratio--16by9 {
     padding-bottom: 56.25%;
 }
 
-.flex-embed__ratio--4by3 {
+.o-flex-embed__ratio--4by3 {
     padding-bottom: 75%;
 }
 
@@ -49,10 +49,10 @@
 /**
  * Fit the content to the aspect ratio
  */
-.flex-embed__content,
-.flex-embed iframe,
-.flex-embed embed,
-.flex-embed object {
+.o-flex-embed__content,
+.o-flex-embed iframe,
+.o-flex-embed embed,
+.o-flex-embed object {
     bottom: 0;
     height: 100%;
     left: 0;
