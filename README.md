@@ -1,6 +1,6 @@
 # Flex-embed
 
-@suitcss' [components-flex-embed](https://github.com/suitcss/components-flex-embed/)
+inuitcss plugin based on @suitcss' [components-flex-embed](https://github.com/suitcss/components-flex-embed/)
 
 ## Installation
 
