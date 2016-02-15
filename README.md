@@ -20,7 +20,7 @@ inuitcss plugin based on @suitcss' [components-flex-embed](https://github.com/su
 
 Basic exemple
 
-```
+```html
 <div class="o-flex-embed">
 	<div class="o-flex-embed__ratio o-flex-embed__ratio--16by9"></div>
 	<div class="o-flex-embed__content">
@@ -31,7 +31,7 @@ Basic exemple
 
 Custom aspect ratio using CSS
 
-```
+```css
 .o-flex-embed__ratio--4by1 {
     padding-bottom: 25%;
 }
@@ -39,7 +39,7 @@ Custom aspect ratio using CSS
 
 Custom aspect ratio using inline style
 
-```
+```html
 <div class="o-flex-embed">
 	<div class="o-flex-embed__ratio" style="padding-bottom: 25%"></div>
 	<div class="o-flex-embed__content">
