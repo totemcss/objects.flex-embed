@@ -1,0 +1,24 @@
+{
+  "name": "totem-flex-embed",
+  "version": "0.2.1",
+  "description": "@suitcss' components-flex-embed",
+  "main": "_objects.flex-embed.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totemcss/objects.flex-embed.git"
+  },
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "author": "Florian Bouvot <florian.bouvot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totemcss/objects.flex-embed/issues"
+  },
+  "homepage": "https://github.com/totemcss/objects.flex-embed#readme"
+}
