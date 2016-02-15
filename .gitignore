@@ -1,6 +1,15 @@
 # https://help.github.com/articles/ignoring-files/
 
-.sass-cache
-*.css.map
-config.codekit
+# OSX
+.DS_Store
+
+# Node
+node_modules
 bower_components
+
+# Sass
+.sass-cache/
+*.css.map
+
+# CodeKit
+config.codekit
