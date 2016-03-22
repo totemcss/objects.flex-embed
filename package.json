@@ -1,6 +1,6 @@
 {
   "name": "totem-flex-embed",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "@suitcss' components-flex-embed",
   "main": "_objects.flex-embed.scss",
   "scripts": {
